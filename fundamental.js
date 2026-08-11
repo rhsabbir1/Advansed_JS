@@ -81,3 +81,46 @@ const person = {
 };      
 
 // console.log(typeof person); // Output: object
+
+
+// Functions in JavaScript are blocks of code designed to perform a particular task. They can take inputs, called parameters, and can return an output. Functions help in organizing code, making it reusable, and improving readability.
+
+const greet = function(name) {
+    return "Hello, " + name + "!";
+}   
+
+// console.log(greet("Sabbir")); // Output: Hello, Sabbir!
+
+function number(a,b){
+    const add = a*b;
+    // console.log(add)
+}
+
+number(10, 15)
+
+
+
+function schedule(name , time){
+    const sleepingTime = (time + "is "+ name + " sleeping time")
+
+    const totalSentense = (`${name} + ${time}`)
+    // console.log(sleepingTime, totalSentense)
+}
+
+schedule('sabbir', '9Pm,')
+schedule('Rakib', '11Pm,')
+schedule('Sajjad', '12Pm,')
+
+
+
+// object 
+
+// function Person(first, last, age, eyecolor) {
+//   this.firstName = first;
+//   this.lastName = last;
+//   this.age = age;
+//   this.eyeColor = eyecolor;
+//   this.fullName = function() {
+//     return this.firstName + " " + this.lastName;
+//   };
+// }
