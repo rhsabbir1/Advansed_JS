@@ -124,3 +124,27 @@ schedule('Sajjad', '12Pm,')
 //     return this.firstName + " " + this.lastName;
 //   };
 // }
+
+// new way to learn java script 
+
+// alert("Hello java script")
+
+// Object
+
+const user = {
+    name : "Rahul",
+    age:25,
+    status: "follower",
+    issFollow: true
+}
+
+const fullName = user.name;
+
+// change object value 
+
+user["name"] = "kamal"
+user['age'] = user['age'] + 1;
+
+console.log(user)
+
+
