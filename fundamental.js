@@ -49,14 +49,14 @@ blockScopedVariable = "Trying to change constant";
 
 // oprator 
 
-let x = 10;
-let y = 5;  
+// let x = 10;
+// let y = 5;  
 
 
-const a = 10;
-const b = 5;
+// const a = 10;
+// const b = 5;
 
-const sum = a + b + " Sum "; // Addition
+// const sum = a + b + " Sum "; // Addition
 
 // console.log("Sum:", sum); // Output: Sum: 15
 
@@ -145,6 +145,94 @@ const fullName = user.name;
 user["name"] = "kamal"
 user['age'] = user['age'] + 1;
 
-console.log(user)
+// console.log(user)
 
 
+// chapter two condation or oparator
+
+// commnt _ learn how to comment code for remainder
+
+// Arithmatic oparator
+
+// let fa = 5;
+// let fb = 9;
+
+// console.log( fa+ fb)
+
+let a = 10;
+let b = 5;
+
+let result = a + b;
+
+
+// console.log(a + b); // 13
+// console.log(a - b); // 7
+// console.log(a * b); // 30
+// console.log(a / b); // 3.333...
+// console.log(a % b); // 1
+// console.log(a ** b); // 1000
+
+// console.log(result); // 15
+
+let storeTaka = 10;
+
+
+if(storeTaka > 20){
+    // console.log("You can buy this book")
+}
+else{
+    // console.log("You need earn money")
+}
+
+let mode = "light";
+let color;
+
+if(mode === "light"){
+    color = "white"
+}
+else if(mode === "Dark"){
+    color = "Black"
+}
+
+// console.log(color)
+
+// let yourNumber = prompt("Enter Your Number")
+
+// // let setname = document.getElementById('name1')
+
+// // setname.innerText = yourNumber;
+// document.getElementById('name1').innerText = yourNumber;
+// if(yourNumber % 2 == 0){
+//     console.log("Your number is even number")
+// }else{
+//     console.log("Your number is odd number")
+// }
+
+// console.log(yourNumber)
+
+
+let yourNumber = prompt("Enter Your Number")
+
+
+let grade;
+
+if(yourNumber <= 100 && yourNumber >= 90){
+    grade = "Your grade is A+";
+}else if(yourNumber <=89 && yourNumber >= 80){
+    grade = "Your grade is A";
+}else if(yourNumber <= 79 && yourNumber >= 70){
+    grade = " Your grade is B+"
+}else if(yourNumber <= 69 && yourNumber >= 60){
+    grade = " Your grade is B"
+}else if(yourNumber <= 59 && yourNumber >= 50){
+    grade = " Your grade is C+"
+}else if(yourNumber <= 49 && yourNumber >= 40){
+    grade = " Your grade is C"
+}else if(yourNumber <= 39 && yourNumber >= 33){
+    grade = " Your grade is F"
+}else(
+    grade = "Enter e valid number"
+)
+
+
+// console.log(grade)
