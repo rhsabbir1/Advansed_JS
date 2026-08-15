@@ -211,7 +211,7 @@ else if(mode === "Dark"){
 // console.log(yourNumber)
 
 
-let yourNumber = prompt("Enter Your Number")
+let yourNumber = 5;
 
 
 let grade;
@@ -236,3 +236,47 @@ if(yourNumber <= 100 && yourNumber >= 90){
 
 
 // console.log(grade)
+
+
+// java script loop
+// for loop
+
+for(let count = 1;  count <= 10; count++){
+    // console.log("For loop")
+}
+
+// console.log("For loop is stoped")
+
+
+// calculate 1 to  5th number 
+
+let sum = 0;
+
+for(let i = 1; i <= 5; i++){
+  sum = sum + i;
+}   
+
+// console.log(sum)
+
+
+// calculate 1 to nth number 
+
+let sum1 = 0;
+let n = 2;
+
+for(let i = 1; i <= n; i++){
+    sum1 = sum1 + i
+}
+
+// console.log(sum1)
+// while loop
+// do while loop
+
+
+// for of for loop 
+
+let str = "Anything";
+
+for(let name of str){
+    console.log(name)
+}
