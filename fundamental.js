@@ -326,11 +326,67 @@ for(let num = 0;  num <= 100; num++){
     }
 }
 
-let rightNumber = 25;
-// let userInput = prompt("Please gase the number");
+// let rightNumber = 25;
+// // let userInput = prompt("Please gase the number");
+// let userInput = 1;
 
-while(userInput != rightNumber){
-    // userInput = prompt("Your number is wrong. Please send again")
+
+// while(userInput != rightNumber){
+//     // userInput = prompt("Your number is wrong. Please send again")
+// }
+
+// console.log("Your provide number is right")
+
+
+// js String
+
+let string = "Apna collage";
+
+const count = string.length;
+const fourthletter = string[3];
+
+// console.log(count +" " + fourthletter);
+
+
+// js strings method or function
+
+const upperCase = string.toLocaleUpperCase()
+const lowwerCase = string.toLocaleLowerCase()
+
+
+// console.log(upperCase)
+
+//  Array 
+
+let fruits = ["Apple", "Banana", "Mango", "Orange"];
+fruits[0]= "Painapple";
+
+// console.log(fruits)
+// console.log(firstItem)
+for(let i = 0; i<fruits.length; i++){
+    // console.log(fruits[i])
 }
 
-console.log("Your provide number is right")
+for(let furit of fruits){
+    // console.log(furit)
+}
+
+let marks = [85, 90, 75, 60, 100];
+let sumOFmarks = 0;
+
+
+for(let mark of marks){
+    sumOFmarks += mark;
+}
+
+const avarageMark = sumOFmarks / marks.length;
+// console.log(`${sumOFmarks} is main marks and avarage marks is ${avarageMark}`)let prices = [250, 645, 300, 900, 50];
+
+// let prices = [250, 645, 300, 900, 50];
+
+// for (let i = 0; i < prices.length; i++) {
+//     let offer = prices[i] / 10;
+//     prices[i] = prices[i] - offer;
+// }
+
+// console.log(prices);
