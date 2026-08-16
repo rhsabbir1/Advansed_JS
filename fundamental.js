@@ -275,8 +275,62 @@ for(let i = 1; i <= n; i++){
 
 // for of for loop 
 
+// only Array
+
 let str = "Anything";
+let length = 0;
 
 for(let name of str){
-    console.log(name)
+    length = length + 1;
+    // console.log(name)
 }
+
+// console.log(length)
+
+const studentName = 'Arafat Ullash';
+let studentNameLength = 0;
+
+for(let length of studentName){
+    // console.log(length)
+    studentNameLength++;
+}
+
+// console.log(studentNameLength)
+
+
+// Create an Object
+const Sperson = {
+  name: "John",
+  age: 30,
+  city: "New York"
+};
+
+for(let key in Sperson){
+    // console.log(Sperson[key])
+}
+
+
+// 1 to 100 even number 
+// even number 
+for(let num = 0;  num <= 100; num++){
+    if(num % 2 == 0){
+            // console.log(num + "The number is even number")
+    }
+}
+
+
+// odd number 
+for(let num = 0;  num <= 100; num++){
+    if(num % 2 !== 0){
+            // console.log(num + "The number is odd number")
+    }
+}
+
+let rightNumber = 25;
+// let userInput = prompt("Please gase the number");
+
+while(userInput != rightNumber){
+    // userInput = prompt("Your number is wrong. Please send again")
+}
+
+console.log("Your provide number is right")
