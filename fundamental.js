@@ -1,6 +1,6 @@
 const name = "Sabbir";
 
-let age  = 25;
+let age = 25;
 age = 30;
 
 let country = "Bangldesh";
@@ -27,7 +27,7 @@ let anotherName = "Ritu";
 
 // Block scope with let and const:
 
-if(true) {
+if (true) {
     let blockScopedVariable = "I am block scoped";
     const blockScopedConstant = "I am also block scoped";
 
@@ -35,7 +35,7 @@ if(true) {
     // console.log(blockScopedConstant); // Accessible here    
 }
 
-blockScopedVariable = "Trying to change constant"; 
+blockScopedVariable = "Trying to change constant";
 // console.log(blockScopedVariable); 
 
 
@@ -69,7 +69,7 @@ blockScopedVariable = "Trying to change constant";
 // console.log(x % y); // Modulus    
 
 
-const table =[ "water", "food", "clothes", "shoes"];
+const table = ["water", "food", "clothes", "shoes"];
 
 // console.log(typeof table); // Output: object
 
@@ -78,21 +78,21 @@ const person = {
     name: "Sabbir",
     age: 25,
     country: "Bangladesh"
-};      
+};
 
 // console.log(typeof person); // Output: object
 
 
 // Functions in JavaScript are blocks of code designed to perform a particular task. They can take inputs, called parameters, and can return an output. Functions help in organizing code, making it reusable, and improving readability.
 
-const greet = function(name) {
+const greet = function (name) {
     return "Hello, " + name + "!";
-}   
+}
 
 // console.log(greet("Sabbir")); // Output: Hello, Sabbir!
 
-function number(a,b){
-    const add = a*b;
+function number(a, b) {
+    const add = a * b;
     // console.log(add)
 }
 
@@ -100,8 +100,8 @@ number(10, 15)
 
 
 
-function schedule(name , time){
-    const sleepingTime = (time + "is "+ name + " sleeping time")
+function schedule(name, time) {
+    const sleepingTime = (time + "is " + name + " sleeping time")
 
     const totalSentense = (`${name} + ${time}`)
     // console.log(sleepingTime, totalSentense)
@@ -132,8 +132,8 @@ schedule('Sajjad', '12Pm,')
 // Object
 
 const user = {
-    name : "Rahul",
-    age:25,
+    name: "Rahul",
+    age: 25,
     status: "follower",
     issFollow: true
 }
@@ -177,20 +177,20 @@ let result = a + b;
 let storeTaka = 10;
 
 
-if(storeTaka > 20){
+if (storeTaka > 20) {
     // console.log("You can buy this book")
 }
-else{
+else {
     // console.log("You need earn money")
 }
 
 let mode = "light";
 let color;
 
-if(mode === "light"){
+if (mode === "light") {
     color = "white"
 }
-else if(mode === "Dark"){
+else if (mode === "Dark") {
     color = "Black"
 }
 
@@ -216,21 +216,21 @@ let yourNumber = 5;
 
 let grade;
 
-if(yourNumber <= 100 && yourNumber >= 90){
+if (yourNumber <= 100 && yourNumber >= 90) {
     grade = "Your grade is A+";
-}else if(yourNumber <=89 && yourNumber >= 80){
+} else if (yourNumber <= 89 && yourNumber >= 80) {
     grade = "Your grade is A";
-}else if(yourNumber <= 79 && yourNumber >= 70){
+} else if (yourNumber <= 79 && yourNumber >= 70) {
     grade = " Your grade is B+"
-}else if(yourNumber <= 69 && yourNumber >= 60){
+} else if (yourNumber <= 69 && yourNumber >= 60) {
     grade = " Your grade is B"
-}else if(yourNumber <= 59 && yourNumber >= 50){
+} else if (yourNumber <= 59 && yourNumber >= 50) {
     grade = " Your grade is C+"
-}else if(yourNumber <= 49 && yourNumber >= 40){
+} else if (yourNumber <= 49 && yourNumber >= 40) {
     grade = " Your grade is C"
-}else if(yourNumber <= 39 && yourNumber >= 33){
+} else if (yourNumber <= 39 && yourNumber >= 33) {
     grade = " Your grade is F"
-}else(
+} else (
     grade = "Enter e valid number"
 )
 
@@ -241,7 +241,7 @@ if(yourNumber <= 100 && yourNumber >= 90){
 // java script loop
 // for loop
 
-for(let count = 1;  count <= 10; count++){
+for (let count = 1; count <= 10; count++) {
     // console.log("For loop")
 }
 
@@ -252,9 +252,9 @@ for(let count = 1;  count <= 10; count++){
 
 let sum = 0;
 
-for(let i = 1; i <= 5; i++){
-  sum = sum + i;
-}   
+for (let i = 1; i <= 5; i++) {
+    sum = sum + i;
+}
 
 // console.log(sum)
 
@@ -264,7 +264,7 @@ for(let i = 1; i <= 5; i++){
 let sum1 = 0;
 let n = 2;
 
-for(let i = 1; i <= n; i++){
+for (let i = 1; i <= n; i++) {
     sum1 = sum1 + i
 }
 
@@ -280,7 +280,7 @@ for(let i = 1; i <= n; i++){
 let str = "Anything";
 let length = 0;
 
-for(let name of str){
+for (let name of str) {
     length = length + 1;
     // console.log(name)
 }
@@ -290,7 +290,7 @@ for(let name of str){
 const studentName = 'Arafat Ullash';
 let studentNameLength = 0;
 
-for(let length of studentName){
+for (let length of studentName) {
     // console.log(length)
     studentNameLength++;
 }
@@ -300,29 +300,29 @@ for(let length of studentName){
 
 // Create an Object
 const Sperson = {
-  name: "John",
-  age: 30,
-  city: "New York"
+    name: "John",
+    age: 30,
+    city: "New York"
 };
 
-for(let key in Sperson){
+for (let key in Sperson) {
     // console.log(Sperson[key])
 }
 
 
 // 1 to 100 even number 
 // even number 
-for(let num = 0;  num <= 100; num++){
-    if(num % 2 == 0){
-            // console.log(num + "The number is even number")
+for (let num = 0; num <= 100; num++) {
+    if (num % 2 == 0) {
+        // console.log(num + "The number is even number")
     }
 }
 
 
 // odd number 
-for(let num = 0;  num <= 100; num++){
-    if(num % 2 !== 0){
-            // console.log(num + "The number is odd number")
+for (let num = 0; num <= 100; num++) {
+    if (num % 2 !== 0) {
+        // console.log(num + "The number is odd number")
     }
 }
 
@@ -359,15 +359,15 @@ const lowwerCase = string.toLocaleLowerCase()
 //  Array 
 
 let fruits = ["Apple", "Banana", "Mango", "Orange"];
-fruits[0]= "Painapple";
+fruits[0] = "Painapple";
 
 // console.log(fruits)
 // console.log(firstItem)
-for(let i = 0; i<fruits.length; i++){
+for (let i = 0; i < fruits.length; i++) {
     // console.log(fruits[i])
 }
 
-for(let furit of fruits){
+for (let furit of fruits) {
     // console.log(furit)
 }
 
@@ -375,7 +375,7 @@ let marks = [85, 90, 75, 60, 100];
 let sumOFmarks = 0;
 
 
-for(let mark of marks){
+for (let mark of marks) {
     sumOFmarks += mark;
 }
 
@@ -401,7 +401,7 @@ function newfunction() {
 newfunction()
 
 
-function reusableFunction (userText){ //userText's called paramiter
+function reusableFunction(userText) { //userText's called paramiter
     // console.log(userText)
 }
 
@@ -412,22 +412,67 @@ reusableFunction(userText); // this userText call is arguments
 
 // addition twoNUmber
 
-function addNumber (num1 , num2){
+function addNumber(num1, num2) {
     const sum = num1 + num2;
     // console.log(sum)
 }
 
 const e = 10;
 const f = 5;
-addNumber(e , f)
+addNumber(e, f)
 
 
 // return 
 
-function add_Number(a , b){
+function add_Number(a, b) {
     let sum = a + b;
     return sum;
 }
 
-const add_numerb = add_Number(5 , 6);
+const add_numerb = add_Number(5, 6);
 // console.log(add_numerb)
+
+
+// morder js arrow function
+
+const sum2 = (a, b) => {
+    console.log(a + b)
+}
+
+
+// console.log(sum2(1,2))
+
+// counst vowel
+
+function countVowel(str) {
+    let count = 0;
+    for (let letter of str) {
+        if (letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u") {
+            count++;
+        }
+    }
+
+
+
+    console.log(count)
+}
+
+// countVowel("Sabbir")
+
+
+// with arrow function 
+
+const countvow = (str) => {
+    let count = 0;
+    for (let letter of str) {
+        if (letter == "a" || letter == "e" || letter == "i" || letter == "o" || letter == "u") {
+            count++;
+        }
+    }
+
+    return count;
+}
+
+
+const countVowe_L = countvow("aeiou")
+// console.log(countVowe_L)
