@@ -390,3 +390,44 @@ for (let i = 0; i < prices.length; i++) {
 }
 
 // console.log(prices);
+
+
+// Function and method ]
+
+function newfunction() {
+    // console.log("apne collage")
+}
+
+newfunction()
+
+
+function reusableFunction (userText){ //userText's called paramiter
+    // console.log(userText)
+}
+
+// let userText = prompt("Please write something")
+let userText = "Hello js";
+reusableFunction(userText); // this userText call is arguments
+
+
+// addition twoNUmber
+
+function addNumber (num1 , num2){
+    const sum = num1 + num2;
+    // console.log(sum)
+}
+
+const e = 10;
+const f = 5;
+addNumber(e , f)
+
+
+// return 
+
+function add_Number(a , b){
+    let sum = a + b;
+    return sum;
+}
+
+const add_numerb = add_Number(5 , 6);
+// console.log(add_numerb)
